@@ -54,5 +54,121 @@ body {
 }
 
 /******************************************
-/* LAYOUT                   
+/* Mobile                   
 /*******************************************/
+h1 {
+     color: #ffff00;
+     font-size: 2.5em;
+     padding-top: 10px;
+     padding-left: 10px;
+     font-family: georgia, sans-serif;
+     display: inline-block;
+}
+
+h2 {
+     font-size: 2em;
+     font-weight: bold;
+}
+
+h3 {
+     font-size: 2.5em;
+     font-family: times, serif;
+     font-weight: bold;
+}
+
+p {
+     font-size: 1.5em;
+     font-family: arial, sans-serif;
+}
+
+a {
+
+}
+
+header {
+     background-color: black;
+     border-bottom: 2px solid #ffff00;
+}
+
+.menu {
+     float: right;
+     padding-top: 7px;
+}
+
+nav {
+     display: none;
+}
+
+.hero { 
+     width: 60%;
+     max-width: 230px;
+     padding: 2%;
+     margin: 4%;
+     background-color: rgba(255, 255, 255, 0.7);
+     float: right;
+     position: absolute;
+     right: 0px;
+     top: 0px;
+}
+
+#yellow-btn {
+     background-color: #ffff00;
+
+}
+
+.button {
+     font-family: arial, sans-serif;
+     font-size: 1.5em;
+     padding: .6em;
+     text-transform: uppercase;
+     background-color: #c6c6c6;
+     border-bottom: 3px solid #666666;
+     text-decoration: none;
+     color: #333333;
+     display: inline-block;
+     margin-top: 1.5em;
+     width: 100%;
+     text-align: center;
+     font-weight: bold;
+     border-radius: .5em;
+}
+
+.second {
+     margin-left: 1em;
+     margin-right: 1em;
+}
+
+main {
+     width: 100%;
+     height: auto;
+     /*background-image: url("../images/coworking.jpg");*/
+     background-repeat: no-repeat;
+     position: relative;
+     clear: both;
+}
+
+.container img{
+     width: 100%
+}
+.red {
+     color: red;
+}
+article {
+     margin-top: 2em;
+}
+
+/******************************************
+/* Tablet                   
+/*******************************************/
+@media only screen and (min-width: 768px) {
+    body {
+  
+    }
+
+/******************************************
+/* Desktop                   
+/*******************************************/
+@media only screen and (min-width: 1024px) {
+  
+}
+
